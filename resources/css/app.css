@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/** Font awesome **/
+
+
+
+@layer base {
+a {
+    @apply text-inherit font-bold hover:no-underline hover:text-inherit ;
+
+}
+
+}
+
+

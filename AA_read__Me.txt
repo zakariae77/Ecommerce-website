@@ -1,0 +1,17 @@
+UI
+    __navbar_______________+++++++++
+    __hero_________________+++++++
+    __Features 
+    __about
+    __vedio_section
+    __
+    __
+    __
+    __FAQ
+    __testimonial
+    __Contact
+    __Footer_____________+++++++
+
+
+
+Backend
