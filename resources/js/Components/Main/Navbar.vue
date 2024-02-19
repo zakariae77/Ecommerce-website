@@ -1,5 +1,7 @@
 <script setup>
+//import BadgeIcon_comp from '../Components/Main/BadgeIcon.vue';
 import { ref } from "vue";
+import BadgeIcon_comp from "./BadgeIcon.vue";
 
 let open =ref(null);
 
@@ -28,7 +30,7 @@ function MenueToggle(){
                 <div class="flex flex-col space-y-3 border p-5 pl-10   border-slate-300 bg-white">
                     <a class="hover:pl-1 hover:font-bold hover:text-slate-800 " href="#">Home</a>
 
-                    <a class="hover:pl-1 hover:font-bold hover:text-slate-800" href="#">Features</a>
+                    <a class="hover:pl-1 hover:font-bold hover:text-slate-800" href="/cart"> <BadgeIcon_comp/> Basket</a>
 
                     <a class="hover:pl-1 hover:font-bold hover:text-slate-800" href="#">About</a>
 
@@ -47,7 +49,7 @@ function MenueToggle(){
 
                 <a class="" href="#">Home</a>
 
-                <a class="" href="#">Features</a>
+                <a class="" href="/cart"><BadgeIcon_comp/> Basket</a>
 
                 <a class="" href="#">About</a>
 

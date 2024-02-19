@@ -33,6 +33,7 @@ Route::middleware('auth')->group(function () {
 
 
 Route::group(['middleware','web'], function(){
+    Route::get('/cart',[CartConrtroller::class, 'index']);
     Route::post('/cart',[CartConrtroller::class, 'store']);
 });
 

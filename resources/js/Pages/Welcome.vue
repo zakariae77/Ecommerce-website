@@ -35,9 +35,7 @@ const props = defineProps({
         required: true,
     },
 });
-onMounted(()=>{
-    console.log(props.products[0].description[0]);
-});
+
 
 </script>
 
@@ -48,7 +46,7 @@ onMounted(()=>{
         <about_comp/>
         <video_comp/>
         <whyus_comp/>
-        <productarea_comp :products="props.products" />
+        <productarea_comp :products="props.products"  />
         <newsletter_comp/>
         <faq_comp/>
         <testimonial_comp/>
